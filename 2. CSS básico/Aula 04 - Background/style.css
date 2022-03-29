@@ -1,0 +1,12 @@
+body {
+    background-image: url(matrix-code-banner.jpg);
+    background-repeat: no-repeat; /* tag usada para limitar o uso da imagem, ou seja, ela não sera replicada no doc */
+    /* background-position: 100% 10%; */
+    background-position: center center; /* serve para configurar a posição da imagem e sempre precisa de dois valores. O primeiro é o da esquerda e o segundo é a posição*/
+    background-size: cover; /* serve para delimitar o tamanho da imagem no documento*/
+    background-attachment: fixed; /* serve para fixar a imagem no documento, impedindo que, ao rolar o texto, a imagem acompanhe (deixa fixa)*/
+}
+
+p {
+    color:rgb(92, 90, 90);
+}

@@ -1,0 +1,24 @@
+body {
+    background: #f1f1ef;
+}
+
+p {
+    color:rgb(92, 90, 90);
+}
+
+.picture {
+    width: 200px;
+    border: 2px solid #FFFFFF; /* a ordem é importante, precisa ser: width, style e color */
+    border-radius: 50%;
+    margin: 30px 30px 30px 30px;
+
+    /*margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 700px;*/
+    
+    /* border-radius: 50% 10% 30% 70%;*/ /* permite alterar cada linha da borda*/
+
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: black; */
+}

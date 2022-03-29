@@ -1,0 +1,33 @@
+body {
+    background: #f1f1ef;
+    font-family: 'Raleway', sans-serif; 
+    color:rgb(92, 90, 90);
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.picture {
+    width: 200px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    margin: 30px 30px 30px 30px;
+    padding: 10px; /* tag para dar espaçamento interno */
+}
+
+h1 {
+    margin-bottom: 0;
+    letter-spacing: -1px;
+    font-family: 'Lora', serif;
+    font-size: 40px;
+}
+
+h2 {
+    margin-top: 0;
+    font-style: italic;
+    color: rgb(122 122 122 / 71%);
+    font-weight: 100;
+    letter-spacing: -1px;
+}
