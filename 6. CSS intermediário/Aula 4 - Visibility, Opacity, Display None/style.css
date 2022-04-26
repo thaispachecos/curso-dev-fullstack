@@ -1,0 +1,16 @@
+body {
+    background: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80s);
+    /*tag para inserir imagem web sem que haja necessidade de salvar (selecionar imagem e clicar em "copiar endereço da imagem"*/
+}
+
+ul {
+    background: grey;
+    padding: 20px;
+    /*visibility: hidden; - oculta o conteúdo, mas o espaço fica visível, ao contrário do "display", que oculta tb a área ocupada*/
+    opacity: 0.5;
+}
+
+ul li {
+    display: inline;
+    margin: 20px;
+}

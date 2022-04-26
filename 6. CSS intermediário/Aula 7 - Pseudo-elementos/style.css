@@ -1,0 +1,33 @@
+::selection {
+    color: pink;
+    background: black;
+}
+
+p::first-line { /*altera um elemento específico sem que se saiba exatamente qual é (alteração mais precisa*/
+    color:orange;
+}
+
+p::first-letter {
+    color: red;
+    font-size: 50px;
+}
+
+h1::before {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Circle-icons-rocket.svg/1200px-Circle-icons-rocket.svg.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    content: "";
+    margin-right: 10px;
+}
+
+h1::after {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Circle-icons-rocket.svg/1200px-Circle-icons-rocket.svg.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    content: "";
+    margin-left: 10px;
+}

@@ -1,0 +1,33 @@
+.exemplo {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.exemplo1 p.red { /*Combinator: combinação de classes para aplicar em uma regra*/
+    color: red;
+}
+
+.red {
+    color: red;
+}
+
+.margin {
+    margin: 50px;
+}
+
+h1, h2, h3 { /*A vírgula serve para aplicar a regra para todos os elementos ou classes*/
+    color: blue;
+}
+
+.exemplo2 > p { /*Configuração direta para os filhos da regra*/
+    color: blue;
+}
+
+.exemplo3 + p { /*O sinal de mais serve para clonar as configurações do primeiro elemento irmão*/
+    color: red;
+}
+
+.exemplo4 ~ p { /*O sinal de til serve para clonar as configurações de todos os elementos irmão*/
+    color: green;
+}
